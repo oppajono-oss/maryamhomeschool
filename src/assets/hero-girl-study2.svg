@@ -1,0 +1,71 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustrasi hero: anak perempuan berhijab sedang belajar">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9FBD9"/>
+      <stop offset="100%" stop-color="#F5FFF0"/>
+    </linearGradient>
+    <linearGradient id="veilGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7EE000"/>
+      <stop offset="100%" stop-color="#58CC02"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#7CB342" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background blob -->
+  <rect width="640" height="360" fill="url(#bgGrad)"/>
+  <g opacity="0.2">
+    <circle cx="520" cy="60" r="80" fill="#79E61F"/>
+    <circle cx="120" cy="300" r="90" fill="#79E61F"/>
+  </g>
+
+  <!-- Table -->
+  <rect x="80" y="250" width="480" height="40" rx="12" fill="#E6F2DA"/>
+
+  <!-- Plant -->
+  <g transform="translate(90,212)">
+    <rect x="0" y="30" width="22" height="18" rx="4" fill="#C8E6C9"/>
+    <path d="M11 6 C2 20, 6 26, 11 30 C16 26, 20 20, 11 6 Z" fill="#58CC02"/>
+    <path d="M18 10 C10 22, 13 27, 18 30 C22 27, 26 22, 18 10 Z" fill="#79E61F"/>
+  </g>
+
+  <!-- Books -->
+  <g transform="translate(150,238)">
+    <rect x="0" y="0" width="110" height="14" rx="4" fill="#FFD166"/>
+    <rect x="8" y="-10" width="120" height="12" rx="4" fill="#FFE9B0"/>
+  </g>
+
+  <!-- Character group -->
+  <g transform="translate(270,70)" filter="url(#softShadow)">
+    <!-- Veil -->
+    <path d="M10 60 C -10 70, -20 100, -20 125 C -20 160, 80 176, 110 176 C 138 176, 220 160, 220 125 C 220 100, 210 70, 190 60 C 170 50, 60 48, 10 60 Z" fill="url(#veilGrad)"/>
+    <!-- Face -->
+    <ellipse cx="105" cy="105" rx="42" ry="36" fill="#F8D9BF"/>
+    <!-- Eyes -->
+    <circle cx="90" cy="103" r="4" fill="#2E2E2E"/>
+    <circle cx="120" cy="103" r="4" fill="#2E2E2E"/>
+    <!-- Smile -->
+    <path d="M90 116 Q105 126 120 116" stroke="#D6786A" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Body -->
+    <rect x="75" y="140" width="60" height="42" rx="12" fill="#58CC02"/>
+    <!-- Arms -->
+    <rect x="60" y="150" width="20" height="12" rx="6" fill="#F8D9BF"/>
+    <rect x="138" y="150" width="20" height="12" rx="6" fill="#F8D9BF"/>
+  </g>
+
+  <!-- Notebook & pencil -->
+  <g transform="translate(360,228)">
+    <rect x="0" y="0" width="130" height="16" rx="6" fill="#CDECC8"/>
+    <rect x="10" y="-36" width="110" height="34" rx="6" fill="#FFFFFF" stroke="#8BC34A"/>
+    <rect x="118" y="-12" width="28" height="6" rx="3" fill="#FFD166"/>
+  </g>
+
+  <!-- Decorative stars -->
+  <g fill="#FFD166">
+    <path d="M64 52 l6 12 13 2 -9 9 2 13 -12 -6 -12 6 2 -13 -9 -9 13 -2z"/>
+    <path d="M580 90 l5 10 11 2 -7 7 2 11 -10 -5 -10 5 2 -11 -7 -7 11 -2z"/>
+  </g>
+</svg>
+
+

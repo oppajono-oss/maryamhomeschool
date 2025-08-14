@@ -1,0 +1,82 @@
+<svg width="720" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustrasi anak perempuan belajar di meja">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE6F2"/>
+      <stop offset="100%" stop-color="#FFF5FA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#C5E1A5" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background blob -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <path d="M70,110 C140,40 300,20 450,60 C600,100 650,180 630,250 C610,320 520,360 390,360 C260,360 160,330 110,300 C60,270 20,230 40,180 C50,150 55,130 70,110 Z" fill="#FFD4EA" opacity="0.75"/>
+
+  <!-- Floating letters/numbers -->
+  <g fill="#FF77B7" font-family="'Nunito', Arial" font-weight="700">
+    <text x="520" y="110" font-size="38">C</text>
+    <text x="610" y="170" font-size="30">2</text>
+    <text x="640" y="230" font-size="34">3</text>
+    <text x="90" y="170" font-size="30">a</text>
+    <text x="150" y="120" font-size="34">A</text>
+    <text x="200" y="160" font-size="28">b</text>
+    <text x="250" y="95" font-size="28">B</text>
+    <text x="575" y="120" font-size="26">1</text>
+  </g>
+
+  <!-- Table -->
+  <g transform="translate(150,250)" filter="url(#shadow)">
+    <rect x="0" y="0" width="420" height="24" rx="8" fill="#F4B183"/>
+    <rect x="0" y="22" width="16" height="74" rx="8" fill="#D89058"/>
+    <rect x="404" y="22" width="16" height="74" rx="8" fill="#D89058"/>
+    <rect x="200" y="22" width="14" height="68" rx="7" fill="#D89058"/>
+  </g>
+
+  <!-- Globe & stationery -->
+  <g transform="translate(170,220)">
+    <circle cx="36" cy="16" r="16" fill="#8BC34A" stroke="#558B2F" stroke-width="3"/>
+    <path d="M30,14 C34,20 40,20 44,14" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <rect x="32" y="32" width="8" height="10" fill="#558B2F"/>
+    <rect x="-2" y="28" width="12" height="8" rx="2" fill="#FF77B7"/>
+    <rect x="12" y="26" width="6" height="10" rx="2" fill="#7E57C2"/>
+  </g>
+
+  <!-- Books -->
+  <g transform="translate(230,238)">
+    <rect x="0" y="12" width="92" height="12" rx="3" fill="#7E57C2"/>
+    <rect x="4" y="0" width="96" height="12" rx="3" fill="#64B5F6"/>
+  </g>
+
+  <!-- Character -->
+  <g transform="translate(300,150)" filter="url(#shadow)">
+    <!-- hair -->
+    <path d="M40,30 C20,40 10,60 10,80 C10,110 70,120 95,120 C120,120 180,110 180,80 C180,60 170,40 150,30 C130,20 70,18 40,30 Z" fill="#6D4C41"/>
+    <rect x="82" y="78" width="24" height="18" rx="8" fill="#FFB74D" transform="rotate(-10 94 87)"/>
+    <!-- face -->
+    <ellipse cx="95" cy="78" rx="34" ry="28" fill="#FFD7C2"/>
+    <!-- eyes -->
+    <circle cx="84" cy="76" r="4" fill="#3E2723"/>
+    <circle cx="106" cy="76" r="4" fill="#3E2723"/>
+    <!-- smile -->
+    <path d="M84,86 Q95,94 106,86" stroke="#D26A6A" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="70" y="106" width="50" height="34" rx="10" fill="#FF5252"/>
+    <circle cx="95" cy="106" r="8" fill="#FFEB3B"/>
+    <!-- arms -->
+    <rect x="58" y="114" width="18" height="10" rx="5" fill="#FFD7C2"/>
+    <rect x="122" y="114" width="18" height="10" rx="5" fill="#FFD7C2"/>
+    <!-- legs/shoes (behind table) -->
+    <rect x="78" y="138" width="8" height="14" rx="4" fill="#90CAF9"/>
+    <rect x="104" y="138" width="8" height="14" rx="4" fill="#90CAF9"/>
+  </g>
+
+  <!-- Open book on table -->
+  <g transform="translate(330,246)">
+    <path d="M0,14 C16,4 34,4 50,14" fill="#FFFFFF" stroke="#B0BEC5"/>
+    <path d="M50,14 C66,4 84,4 100,14" fill="#FFFFFF" stroke="#B0BEC5"/>
+    <line x1="50" y1="14" x2="50" y2="24" stroke="#B0BEC5"/>
+  </g>
+</svg>
+
+

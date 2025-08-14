@@ -1,0 +1,21 @@
+{
+  "name": "Study Progress Tracker",
+  "short_name": "StudyTracker",
+  "description": "A study progress tracker for homeschooling children.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4CAF50",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "id",
+  "dir": "ltr"
+}
